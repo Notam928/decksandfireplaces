@@ -20,7 +20,7 @@
   document.getElementById('contact-form').addEventListener('submit', function(event) {
     event.preventDefault();
   
-    emailjs.sendForm('service_ar4kt3t', 'template_kojud9c', this)
+    emailjs.sendForm('service_5bzc8lx', 'template_zddhsl4', this)
       .then(function(response) {
         alert("Email envoyé avec succès !");
         console.log('SUCCESS!', response.status, response.text);
